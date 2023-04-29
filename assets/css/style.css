@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.formulario h1{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+form{
+    width: 350px;
+	margin: 0 auto;
+	font-family: Arial, sans-serif;
+}
+label{
+    display: block;
+    margin-bottom: 9px;
+    font-weight: bold;
+    font-size: 13px;
+}
+input{
+    display: block;
+    width: 100%;
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 13px;
+}
+input[type="submit"]:hover {
+    background: rgb(20, 224, 156);
+    cursor: pointer;
+}
+.container{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+.content{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+.content h1{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+.tabela{
+    width: 350px;
+    text-align: center;
+}
+.tabela thead{
+    background: rgb(20, 224, 156);
+    font-weight: bold;
+    color: black;
+    font-size: 12px;
+}
+.tabela thead th{
+    border-radius: 4px;
+}
+.tabela th , .tabela td{
+    padding: 5px 0;
+    font-size: 12px;
+}
